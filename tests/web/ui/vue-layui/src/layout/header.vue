@@ -1,0 +1,51 @@
+<template>
+  <lay-header>
+    <lay-logo>vue-layui</lay-logo>
+    <lay-menu mode="horizontal" class="layui-layout-left">
+      <lay-menu-item :index="0">
+        <template slot="title">
+          <span>导航一</span>
+        </template>
+        <lay-menu-child-item title="test"></lay-menu-child-item>
+        <lay-menu-child-item title="test"></lay-menu-child-item>
+      </lay-menu-item>
+      <lay-menu-item :index="1">
+        <template slot="title">
+          <span>导航一</span>
+        </template>
+      </lay-menu-item>
+      <lay-menu-item :index="2">
+        <template slot="title">
+          <span>导航一</span>
+        </template>
+      </lay-menu-item>
+      <lay-menu-item :index="3">
+        <template slot="title">
+          <span>导航一</span>
+        </template>
+      </lay-menu-item>
+    </lay-menu>
+    <lay-menu mode="horizontal" class="layui-layout-right">
+      <lay-menu-item :index="0">
+        <template slot="title">
+          <img
+            src="https://avatars1.githubusercontent.com/u/23720738?s=460&v=4"
+            class="layui-nav-img"
+          > admin
+        </template>
+        <lay-menu-child-item title="基本资料"></lay-menu-child-item>
+        <lay-menu-child-item title="安全设置"></lay-menu-child-item>
+      </lay-menu-item>
+      <lay-menu-item :index="0">
+        <template slot="title">退出</template>
+      </lay-menu-item>
+    </lay-menu>
+  </lay-header>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style scoped>
+</style>
